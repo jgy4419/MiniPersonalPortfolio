@@ -21,6 +21,7 @@ const MainContain = styled.div`
     position: relative;
     width: 100vw;
     height: 100vh;
+    background-color: #333;
 `
 
 const MainInner = styled.div`

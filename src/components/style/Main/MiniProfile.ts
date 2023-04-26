@@ -48,5 +48,4 @@ export const Icon = styled.a`
 
 export const SocialMedia = styled.li`
     border-radius: 50%;
-    background-color: #fff;
 `

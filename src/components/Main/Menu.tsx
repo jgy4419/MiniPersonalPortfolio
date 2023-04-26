@@ -1,15 +1,17 @@
-import React from 'react';
 import * as S from '../style/Main/Menu';
+import { menuIcons } from '../../utils/constants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Menu = () => {
-    const arr = ['1', '2', '3', '4', '5', '6'];
     return (
         <S.MenuContain>
             <S.Menus>
                 {
-                    arr.map((item, index) => {
+                    menuIcons.map((item, index) => {
                         return (
-                            <S.Menu key={index}></S.Menu>   
+                            <S.Menu key={index}>
+                                <FontAwesomeIcon icon={item}/>
+                            </S.Menu>   
                         )
                     })
                 }

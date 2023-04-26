@@ -23,4 +23,10 @@ export const Menu = styled.li`
     width: 70px;
     height: 70px;
     background-color: #e3e3e3;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    padding-top: 17px;
+    box-sizing: border-box;
+    cursor: pointer;
 `
