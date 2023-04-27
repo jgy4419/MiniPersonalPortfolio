@@ -1,6 +1,11 @@
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import ProfileImg from '../assets/img/profileImg.jpeg';
 import { faBlog, faBuilding, faFile, faHouse, faMessage, faUser } from '@fortawesome/free-solid-svg-icons';
+import aquaponics from '../assets/img/projects/aquaponics.png';
+import hospital from '../assets/img/projects/hospitalLocation.png';
+import mohaemookji from '../assets/img/projects/mohaemookji.png';
+import rdaFarm from '../assets/img/projects/rda-farm.png';
+import TodayWorkOut from '../assets/img/projects/TodayWorkOutComplete.png';
 
 // Main
 export const name = '정규영';
@@ -41,4 +46,23 @@ export const about = {
         '2022년 전국 창의적 종합설계 공학 패스티벌 (영남대학교 컨소시엄 창의적 종합설계 경진대회 동상)',
         '2020년 동계 스마트팩토리 메이커 캠퍼스톤 (한밭대학교 총장상)'
     ]
+}
+
+// projects
+export const projects = {
+    projectNames: [
+        '모해묵지?', 
+        '내 주변 응급실 찾아주기',
+        '오운완', 
+        '낙과경매', 
+        '아쿠아포닉스'
+    ],
+    projectsURL: [
+        'https://github.com/KNUT-Mohaemookji/mohaemookji-fronted-next',
+        'https://github.com/jgy4419/hospital-location',
+        'https://github.com/jgy4419/-Today-workout-complete',
+        'https://github.com/jgy4419/knut-dblab-rda-farm',
+        'https://github.com/jgy4419/aquaponics'
+    ],
+    projectImage: [mohaemookji, hospital, TodayWorkOut, rdaFarm, aquaponics],
 }

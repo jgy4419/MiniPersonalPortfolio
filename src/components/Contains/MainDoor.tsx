@@ -3,7 +3,7 @@ import * as S from '../style/Contains/MainDoor';
 
 const MainContain = () => {
     return (
-        <S.MainContain>
+        <S.MainContain id="main">
             <S.Title>{maincontainTitle}</S.Title>
         </S.MainContain>
     );
