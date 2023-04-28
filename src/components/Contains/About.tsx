@@ -6,7 +6,7 @@ import AboutSkills from './About/AboutSkills';
 const MainAbout = () => {
     return (
         <>
-            <S.MainAboutContain>
+            <S.MainAboutContain id='about'>
                 <AboutIntroduces/>
                 <S.SkillesAndAwardStructure>
                     <AboutSkills/>

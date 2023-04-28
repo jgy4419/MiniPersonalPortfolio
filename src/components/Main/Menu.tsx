@@ -1,10 +1,11 @@
 import * as S from '../style/Main/Menu';
 import { menuIcons } from '../../utils/constants';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {menuChange} from '../../utils/constants';
 
 const Menu = () => {
-    const menuMove = () => {
-        document.getElementById('main')?.scrollIntoView({behavior: "smooth"});
+    const menuMove = (menu: string) => {
+        document.getElementById(menu)?.scrollIntoView({behavior: "smooth"});
     }
 
     return (
@@ -14,7 +15,7 @@ const Menu = () => {
                     menuIcons.map((item, index) => {
                         return (
                             <S.Menu key={index}
-                                onClick={() => menuMove()}
+                                onClick={() => menuMove(menuChange[index])}
                             >
                                 <FontAwesomeIcon icon={item}/>
                             </S.Menu>   

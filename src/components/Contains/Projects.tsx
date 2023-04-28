@@ -3,14 +3,24 @@ import {projects} from '../../utils/constants';
 const Projects = () => {
     return (
         <>
-            <S.ProjectsContain>
+            <S.ProjectsContain id='projects'>
                 <S.Title>Projects</S.Title>
                 <S.Projects>
                 {
                     projects.projectNames.map((name, index) => {
                         return (
-                            <S.Project>
-                                <S.ProjectName>{name}</S.ProjectName>
+                            <S.Project 
+                                key={index}
+                                image={projects.projectImage[index]}
+                            >
+                                <S.ProjectContent>
+                                    <S.ProjectImage src={projects.projectImage[index]} alt='프로젝트 이미지'/>
+                                    <S.ProjectContentRight>
+                                        <S.ProjectName>{name}</S.ProjectName>
+                                        <S.ProjectTechnology>React + TypeScript</S.ProjectTechnology>
+                                        <S.ProjectExplanation>프로젝트 설명 들어갈 곳</S.ProjectExplanation>
+                                    </S.ProjectContentRight>
+                                </S.ProjectContent>
                                 <S.BlackBackground/>
                             </S.Project>
                         )

@@ -28,6 +28,8 @@ export const menuIcons = [
 
 export const profileImg = ProfileImg;
 
+export const menuChange = ['main', 'about', 'projects', 'experence', 'contact'];
+
 // MainDoor
 export const maincontainTitle = '사용자와 가장 가까이에서 소통하고 싶은 개발자 정규영입니다.';
 
@@ -55,7 +57,6 @@ export const projects = {
         '내 주변 응급실 찾아주기',
         '오운완', 
         '낙과경매', 
-        '아쿠아포닉스'
     ],
     projectsURL: [
         'https://github.com/KNUT-Mohaemookji/mohaemookji-fronted-next',
@@ -65,4 +66,16 @@ export const projects = {
         'https://github.com/jgy4419/aquaponics'
     ],
     projectImage: [mohaemookji, hospital, TodayWorkOut, rdaFarm, aquaponics],
+}
+
+// experence 
+export const experence = {
+    title: [
+        '한국교통대학교',
+        '충주상업고등학교 강사'
+    ],
+    explanation: [
+        '2017.03 ~ 2023.02',
+        '2023.03 ~ '
+    ]
 }
