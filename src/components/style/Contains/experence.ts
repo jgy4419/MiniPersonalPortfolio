@@ -48,6 +48,10 @@ export const Content = styled.div`
     box-sizing: border-box;
     border-radius: 20px;
     text-align: center;
+    transition: .3s;
+    &:hover {
+        transform: translateY(-5%);
+    }
 `
 
 export const Title = styled.h2`

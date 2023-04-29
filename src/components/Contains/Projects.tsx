@@ -1,5 +1,7 @@
 import * as S from '../style/Contains/projects';
 import {projects} from '../../utils/constants';
+import {Link} from 'react-router-dom';
+
 const Projects = () => {
     return (
         <>
@@ -19,6 +21,10 @@ const Projects = () => {
                                         <S.ProjectName>{name}</S.ProjectName>
                                         <S.ProjectTechnology>React + TypeScript</S.ProjectTechnology>
                                         <S.ProjectExplanation>프로젝트 설명 들어갈 곳</S.ProjectExplanation>
+                                        <Link 
+                                            to={projects.projectsURL[index]}
+                                            style={{fontSize: "20px", zIndex: 10, cursor: "pointer"}}
+                                        >바로가기</Link>
                                     </S.ProjectContentRight>
                                 </S.ProjectContent>
                                 <S.BlackBackground/>

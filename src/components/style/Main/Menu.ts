@@ -13,7 +13,7 @@ export const Menus = styled.ul`
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #f3f3f3;
     border-radius: 50px;
 `
 
@@ -22,11 +22,16 @@ export const Menu = styled.li`
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    background-color: #e3e3e3;
+    background-color: #fff;
     font-size: 30px;
     color: #333;
     text-align: center;
     padding-top: 17px;
     box-sizing: border-box;
     cursor: pointer;
+    transition: .3s;
+    &:hover {
+        background-color: #333;
+        color: #fff;
+    }
 `

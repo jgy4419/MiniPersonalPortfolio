@@ -23,15 +23,22 @@ export const snsIcon = [
 ]
 
 export const menuIcons = [
-    faHouse, faUser, faFile, faBuilding, faMessage
+    faHouse, faUser, faFile, faBuilding
 ]
 
 export const profileImg = ProfileImg;
 
-export const menuChange = ['main', 'about', 'projects', 'experence', 'contact'];
+export const menuChange = ['main', 'about', 'projects', 'experence'];
 
 // MainDoor
-export const maincontainTitle = '사용자와 가장 가까이에서 소통하고 싶은 개발자 정규영입니다.';
+export const maindoor = {
+    title: '사용자와 가장 가까이에서 소통하고 싶은 개발자 정규영입니다.',
+    contactTitle: ['Email', 'Tel'],
+    contactContent: [
+        'jgy_98@naver.com',
+        '010-2037-4553'
+    ]
+}
 
 // About
 export const about = {

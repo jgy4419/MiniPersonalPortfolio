@@ -23,7 +23,7 @@ export const ProjectsContain = styled.div`
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #eeeeee;
+    background-color: #fafafa;
     color: #333;
     text-align: center;
     display:flex; 
@@ -49,7 +49,6 @@ export const Project = styled.li<{image: string}>`
     width: 35%;
     height: 300px;
     background-color: #fff;
-    cursor: pointer;
     background-image: url(${(props => props.image)});
     background-repeat: no-repeat;
     background-size: 50%;
