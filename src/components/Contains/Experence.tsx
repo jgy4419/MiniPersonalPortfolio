@@ -4,7 +4,7 @@ import * as S from '../style/Contains/experence';
 const Experence = () => {
     return (
         <S.ExperenceContain id='experence'>
-            <S.ExperenceTitle>Experence</S.ExperenceTitle>
+            <S.ExperenceTitle>📝 Experence</S.ExperenceTitle>
             <S.Experences>
             {
                 experence.title.map((title, index) => {

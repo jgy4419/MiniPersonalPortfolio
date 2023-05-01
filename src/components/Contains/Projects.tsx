@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <>
             <S.ProjectsContain id='projects'>
-                <S.Title>Projects</S.Title>
+                <S.Title>🧑🏻‍💻 Projects</S.Title>
                 <S.Projects>
                 {
                     projects.projectNames.map((name, index) => {

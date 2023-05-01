@@ -3,7 +3,7 @@ import * as S from '../../style/Contains/About/AboutSkills';
 const AboutSkills = () => {
     return (
         <S.AboutSkillsContain>
-            <S.SkillTitle>Skills</S.SkillTitle>
+            <S.SkillTitle>💻 Skills</S.SkillTitle>
             <S.Skills>
                 {
                     about.skils.map((skill, index) => {

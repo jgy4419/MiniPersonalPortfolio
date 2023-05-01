@@ -33,6 +33,7 @@ export const ProjectsContain = styled.div`
 `
 
 export const Title = styled.h1`
+    margin-top: 3%;
 `
 
 export const Projects = styled.ul`

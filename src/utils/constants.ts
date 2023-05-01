@@ -1,6 +1,7 @@
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import ProfileImg from '../assets/img/profileImg.jpeg';
-import { faBlog, faBuilding, faFile, faHouse, faMessage, faUser } from '@fortawesome/free-solid-svg-icons';
+import MainImg from '../assets/img/mainDoorImg.jpeg';
+import { faBlog, faBuilding, faFile, faHouse, faUser } from '@fortawesome/free-solid-svg-icons';
 import aquaponics from '../assets/img/projects/aquaponics.png';
 import hospital from '../assets/img/projects/hospitalLocation.png';
 import mohaemookji from '../assets/img/projects/mohaemookji.png';
@@ -33,11 +34,14 @@ export const menuChange = ['main', 'about', 'projects', 'experence'];
 // MainDoor
 export const maindoor = {
     title: '사용자와 가장 가까이에서 소통하고 싶은 개발자 정규영입니다.',
-    contactTitle: ['Email', 'Tel'],
+    contactTitle: ['Email', 'Tel', 'Github', 'Blog'],
     contactContent: [
         'jgy_98@naver.com',
-        '010-2037-4553'
-    ]
+        '010-2037-4553',
+        'https://github.com/jgy4419',
+        'https://velog.io/@jgy4419'
+    ],
+    img: MainImg
 }
 
 // About

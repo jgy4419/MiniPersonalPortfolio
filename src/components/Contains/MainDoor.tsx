@@ -4,19 +4,22 @@ import * as S from '../style/Contains/MainDoor';
 const MainContain = () => {
     return (
         <S.MainContain id="main">
-            <S.Title>{maindoor.title}</S.Title>
-            <S.Contacts>
-                {
-                    maindoor.contactTitle.map((title, index) => {
-                        return (
-                            <S.Contact>
-                                <S.ContactTitle key={index}>{title}</S.ContactTitle>
-                                <S.ContactContent>{maindoor.contactContent[index]}</S.ContactContent>
-                            </S.Contact>
-                        )
-                    })
-                }
-            </S.Contacts>
+            <div>
+                <S.Title>{maindoor.title}</S.Title>
+                <S.ContentTitle>📞  Contact</S.ContentTitle>
+                <S.Contacts>
+                    {
+                        maindoor.contactTitle.map((title, index) => {
+                            return (
+                                <S.Contact>
+                                    <S.ContactTitle key={index}>{title} : {maindoor.contactContent[index]}</S.ContactTitle>
+                                </S.Contact>
+                            )
+                        })
+                    }
+                </S.Contacts>
+            </div>
+            <S.MainImage src={maindoor.img} alt="main이미지"/>
         </S.MainContain>
     );
 };

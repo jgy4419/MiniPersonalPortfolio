@@ -13,7 +13,7 @@ export const Menus = styled.ul`
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     border-radius: 50px;
 `
 
@@ -22,7 +22,7 @@ export const Menu = styled.li`
     border-radius: 50%;
     width: 70px;
     height: 70px;
-    background-color: #fff;
+    background-color: #f3f3f3;
     font-size: 30px;
     color: #333;
     text-align: center;

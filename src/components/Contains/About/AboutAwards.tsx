@@ -4,7 +4,7 @@ import * as S from '../../style/Contains/About/AboutAwards';
 const AboutAwards = () => {
     return (
         <S.AboutAwardsContain>
-            <S.AwardsTitle>Awards</S.AwardsTitle>
+            <S.AwardsTitle>🏆 Awards</S.AwardsTitle>
             <S.Awards>
                 {
                     about.awards.map((award, index) => {

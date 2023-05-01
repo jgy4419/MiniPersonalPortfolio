@@ -7,36 +7,53 @@ export const MainContain = styled.div`
     height: 100%;
     color: #333;
     background-color: #fafafa;;
+    display: flex;
 `
 
+export const ContentTitle = styled.h2`
+    text-align: center;
+    margin: -5% 0 5% 0;
+`
 export const Title = styled.h1`
     display: flex;
     align-items: center;
-    font-size: 40px;
-    width: 50%;
+    font-size: 30px;
+    width: 60%;
     height: 50%;
     text-align: center;
     margin: auto;
 `
 
 export const Contacts = styled.ul`
+    position: relative;
     display: flex;
-    justify-content: space-around;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const ContactTitle = styled.p`
+    font-size: 1em;
+    transition: .2s;
+    font-weight: 600;
 `
 
 export const Contact = styled.li`
-    width: 30%;
-    min-height: 250px;
+    width: 60%;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #e3e3e3;
-    text-align: center;
+    padding: 10px;
+    &:hover {
+        > ${ContactTitle} {
+            transform: translateY(15px);
+            font-size: 1.2em;
+            padding: 20px;
+        }
+    }
 `
 
-export const ContactTitle = styled.h2`
-    font-size: 40px;
-`
-
-export const ContactContent = styled.p`
-    font-size: 25px;
-    margin-top: 10%;
+export const MainImage = styled.img`
+    width: 30%;
+    height: 40%;
+    margin: auto;
 `

@@ -5,7 +5,7 @@ const MainAbout = () => {
     return (
         <>
             <S.AboutIntroduces>
-                <S.Title>About me</S.Title>
+                <S.Title>💁🏻 Introduce</S.Title>
                 <S.Introduces>
                     {
                         about.introduce.map((item: string, index: number) => {

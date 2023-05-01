@@ -54,7 +54,7 @@ export const Content = styled.div`
     }
 `
 
-export const Title = styled.h2`
+export const Title = styled.h3`
 
 `
 
