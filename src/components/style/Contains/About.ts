@@ -9,9 +9,15 @@ export const MainAboutContain = styled.div`
     gap: 5%;
     flex-direction: column;
     justify-content: center;
+    @media (max-width: 1000px) {
+        justify-content: center;
+    }
 `
 
 export const SkillesAndAwardStructure = styled.div`
     display: flex;
     justify-content: space-around;
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
 `

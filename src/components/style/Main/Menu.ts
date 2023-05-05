@@ -5,16 +5,23 @@ export const MenuContain = styled.div`
     width: 5%;
     height: 80vh;
     margin: auto;
+    @media (max-width:1000px) {
+        width: 100%;
+        height: 8%;
+    }
 `
 
 export const Menus = styled.ul`
     position: absolute;
-    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 50px;
+    @media (max-width:1000px) {
+        flex-direction: row;
+        width: 100%;
+    }
 `
 
 export const Menu = styled.li`
@@ -33,5 +40,10 @@ export const Menu = styled.li`
     &:hover {
         background-color: #333;
         color: #fff;
+    }
+    @media (max-width:1000px) {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
     }
 `

@@ -31,5 +31,8 @@ const MainInner = styled.div`
     display: flex;
     inset: 0;
     margin: auto;
+    @media (max-width:1000px) {
+        flex-direction: column;
+    }
 `
 export default Main;

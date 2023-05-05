@@ -8,6 +8,9 @@ export const MainContain = styled.div`
     color: #333;
     background-color: #fafafa;;
     display: flex;
+    @media (max-width: 1000px) {
+        justify-content: center;
+    }
 `
 
 export const ContentTitle = styled.h2`
@@ -56,4 +59,7 @@ export const MainImage = styled.img`
     width: 30%;
     height: 40%;
     margin: auto;
+    @media (max-width:1000px) {
+        display: none;
+    }
 `

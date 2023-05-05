@@ -8,6 +8,9 @@ export const AboutSkillsContain = styled.div`
 `
 
 export const SkillTitle = styled.h1`
+    @media (max-width:1000px) {
+        font-size: 25px;
+    }
 `
 
 export const Skills = styled.ul`
@@ -29,5 +32,9 @@ export const Skill = styled.li`
     &:hover {
         background-color: #FFDEB4;
         color: #333;
+    }
+    @media (max-width:1000px) {
+        font-size: 12px;
+        padding: 10px;
     }
 `

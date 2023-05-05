@@ -10,6 +10,9 @@ export const AboutIntroduces = styled.div`
 `
 
 export const Title = styled.h1`
+    @media (max-width:1000px) {
+        font-size: 25px;
+    }
 `;
 
 export const Introduces = styled.ul`
@@ -19,6 +22,9 @@ export const Introduces = styled.ul`
 `;
 
 export const Introduce = styled.li`
-    list-style-type: square;
     color: #6a6a6a;
+    @media (max-width:1000px) {
+        font-size: 14px;
+        text-align: center;
+    }
 `;
